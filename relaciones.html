@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css"/> 
+    <script src="js/scripts.js"></script>
+    <title>Relaciones</title>
+</head>
+<body>
+    <main>
+        <section id="principal">
+            <h1 id="titulo"> RELACIONES </h1>
+            <section id="formulario-autos">
+                <form>
+                    <section id="section-autos">
+                        <div>
+                            <label for="select-auto"> Auto </label>
+                            <select id="select-auto">
+                                <option value="">Selecciona un auto</option>
+                                <option value="rb20">Red Bull RB20</option>
+                                <option value="sf24">Ferrari SF-24</option>
+                                <option value="mcl38">McLaren MCL38</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="select-escuderia"> Escudería </label>
+                            <select id="select-escuderia">
+                                <option value="">Selecciona una escudería</option>
+                                <option value="redbull">Red Bull Racing</option>
+                                <option value="ferrari">Scuderia Ferrari</option>
+                                <option value="mclaren">McLaren Formula 1 Team</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="select-corredor"> Corredor </label>
+                            <select id="select-corredor">
+                                <option value="">Selecciona un corredor</option>
+                                <option value="verstappen">Max Verstappen</option>
+                                <option value="leclerc">Charles Leclerc</option>
+                                <option value="norris">Lando Norris</option>
+                            </select>
+                        </div>
+                    </section>
+                    <button id="boton" onclick="guardarRelacion()">Registrar</button><button type="submit" class="btn-guardar">Asignar</button>
+                </form>
+            </section>
+        </section>
+        <aside id="menu">
+            <h3>MENU</h3>
+            <ol>
+                <li><a href="index.html"> Menú </a></li>
+                <li><a href="autos.html"> Autos </a></li>
+                <li><a href="escuderia.html"> Escudería </a></li>
+                <li><a href="corredor.html"> Corredor </a></li>
+                <li> Relaciones </li>
+            </ol>
+        </aside>
+    </main>
+    <footer>
+        <section id="footer-nombre">
+            <h3> Aarón Emmanuel Calderón Saldaña</h3>
+        </section>
+        <section id="footer-grupo">
+            <h3> LDSM405 </h3>
+        </section>
+    </footer>
+</body>
+</html>

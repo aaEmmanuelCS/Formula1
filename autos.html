@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css"/> 
+    <script src="js/scripts.js"></script>
+    <title>Autos</title>
+</head>
+<body>
+    <main>
+        <section id="principal">
+            <h1 id="titulo">AUTOS</h1>
+            <section id="formulario-autos">
+                <form onsubmit="event.preventDefault();">
+                    <section id="section-autos">
+                        <div>
+                            <label for="modelo">Modelo</label>
+                            <input type="text" id="modelo" placeholder="Ej. Red Bull Racing">
+                        </div>
+                        <div>
+                            <label for="color">Color</label>
+                            <input type="color" id="color" value="#e10600">
+                        </div>
+                        <div>
+                            <label for="foto">Foto</label>
+                            <input type="file" id="foto">
+                        </div>
+                        <div>
+                            <label>Activo</label>
+                            <div class="opciones-radio">
+                                <label><input type="radio" name="activo" value="Si" checked> Sí</label>
+                                <label><input type="radio" name="activo" value="No"> No</label>
+                            </div>
+                        </div>
+                        <button id="boton" onclick="guardarAuto()">Registrar</button>
+                    </section>  
+                </form>
+            </section>
+        </section>
+
+        <aside id="menu">
+            <h3>MENU</h3>
+            <ol>
+                <li><a href="index.html">Menu</a></li>
+                <li> Autos </li>
+                <li> <a href="escuderia.html"> Escuderia </a> </li>
+                <li> <a href="corredor.html"> Corredor </a> </li>
+                <li> <a href="relaciones.html"> Relaciones </a> </li>
+            </ol>
+        </aside>
+    </main>
+
+    <footer>
+        <section id="footer-nombre">
+            <h3>Aarón Emmanuel Calderón Saldaña</h3>
+        </section>
+        <section id="footer-grupo">
+            <h3>LDSM405</h3>
+        </section>
+    </footer>
+</body>
+
+</html>
